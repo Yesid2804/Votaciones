@@ -1,4 +1,4 @@
-3### OPCION 1 DEL MENU
+# OPCION 1 DEL MENU
 registrarCandidato<-function(candidatos,votos){
     limite<-3;
     if(length(candidatos)>=limite){
@@ -15,7 +15,7 @@ registrarCandidato<-function(candidatos,votos){
     }
 }
 
-#OPCION 3 DEL MENU
+# OPCION 3 DEL MENU
 listarCandidatos<-function(candidatos){
     print("LISTA DE CANDIDATOS")
     for(can in candidatos){
@@ -26,7 +26,7 @@ listarCandidatos<-function(candidatos){
 }
 
 
-#OPCION 4 DEL MENU
+# OPCION 4 DEL MENU
 votar<-function(candidatos,votos){
     print("LISTA DE CANDIDATOS")
     for(i in 1:length(candidatos)){
