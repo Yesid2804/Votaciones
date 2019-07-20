@@ -152,9 +152,9 @@ while(1){
                 barplot(votos, col=colores,main="Elecciones",legend.text=c("Rojo","Azul"),ylab ="Cantidad de Votos",xlab ="Candidatos")
                 return;
             }
-            
+            return (0)  
         }
-        return (0)      
+            
     }
     
 
