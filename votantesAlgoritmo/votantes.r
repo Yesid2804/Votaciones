@@ -134,6 +134,7 @@ while(1){
         mostrarVotos(candidatos,votos)
         if(votos == 0){
             print("No hubo un Ganador")
+              barplot(votos, col=colores,main="Elecciones",ylab ="Cantidad de Votos",xlab ="Candidatos")
         }else{
             print(paste("El Ganador es",candidatos[1],"Con",votos[1],"Votos"))
             
